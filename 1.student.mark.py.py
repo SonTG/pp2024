@@ -15,7 +15,7 @@ def input_course_info():
     course_name = input("Enter course name: ")
     return (course_id, course_name)
 
-# Other functions remain the same
+
 
 def main():
     students = []
@@ -31,9 +31,7 @@ def main():
     for _ in range(num_courses):
         course_info = input_course_info()
         courses.append(course_info)
-        marks[course_info[0]] = {}  # Using course ID as keys for marks dictionary
-
-    # Remaining code remains unchanged
+        marks[course_info[0]] = {}  
 
 if __name__ == "__main__":
     main()
