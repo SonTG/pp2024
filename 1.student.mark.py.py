@@ -54,7 +54,7 @@ def main():
     for _ in range(num_courses):
         course_info = input_course_info()
         courses.append(course_info)
-        marks[course_info[0]] = {}  # Using course ID as keys for marks dictionary
+        marks[course_info[0]] = {}  
 
     while True:
         print("\nMenu:")
