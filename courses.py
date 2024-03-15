@@ -1,0 +1,1 @@
+f = open("courses.txt","x")
